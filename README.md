@@ -1,2 +1,6 @@
 # webProject
-This is working specifically on the recipes pages and the links from that page to other pages.
+
+ITC134 github web project by Jinyoung, Kristin, Conela
+
+github web:
+https://nire9221.github.io/webProject/
