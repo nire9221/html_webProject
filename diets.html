@@ -1,11 +1,13 @@
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <title>Kristin's Cookin'!</title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/style.css"> 
     </head>
+
     <body>
         <header class="headfoot">
             <div class="title">
@@ -17,62 +19,71 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="diets.html">Diets</a></li>
                     <li><a href="recipes.html">Recipes</a></li>
-                    <li class="coming-soon">Meal Planner</li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
-        </header>
-        <p class="important">Below is a list of just a few of the different diets that I have worked with.</p>
-        <p>Please fill out the form below to receive more information about different diets/styles of cooking.</p>
-        <form action="success.html" method="post">
-                <fieldset>
-                        <div style="background-color: rgba(63, 156, 70, 0.548)">
-                <p>Create An Account</p>
-                <label for="firstname">First Name<br /></label>
-                <input type="text" id="firstname" required="required" placeholder="Enter First Name"/>
-                <br>
-                <label for="lastname">Last Name<br /></label>
-                <input type="text" id="lastname" required="required" placeholder="Enter Last Name"/>
-                <br>
-                <label for="email">Email<br /></label>
-                <input type="text" id="email" required="required" placeholder="Enter Email"/>
-                <br>
-                <p>Diets/styles of cooking you would like to learn more about:<br />
-                <input type="checkbox" name="service"
-                value="Whole30" /> Whole30<br />
-                   
-                <input type="checkbox" name="service"
-                value="Paleo" /> Paleo<br />
-                   
-                <input type="checkbox" name="service"
-                value="Vegetarian" /> Vegetarian<br />
+    </header>
+        
 
-                <input type="checkbox" name="service"
-                value="Vegan" /> Vegan<br />
+<!-- top navigation end -->
 
-                <input type="checkbox" name="service"
-                value="Keto" /> Keto<br />
-                </p>            
-                <input type="submit" value="Submit" />
-                </div>
-          
-                </fieldset>
-        </form>
-        <a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fwww.kristinmunn.club%2Fweb110%2Fassignments%2Fassignment11%2Fdiets.html">
-            <img alt="validate" src="images/validator.png" height="25" width="50">
-        </a>
+<main class="container">
+<h3>diet</h3>
+<p>Below is a list of just a few of the different diets that I have worked with. <br>
+Please fill out the form below to receive more information about different diets/styles of cooking.</p>
 
-        <a href="https://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.kristinmunn.club%2Fweb110%2Fassignments%2Fassignment11%2Fdiets.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
-            <img style="border:0;width:50px;height:25px"
-                src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
-                alt="Validate CSS" />
-        </a>
-    <div class="item">
-        <h5>&copy;2019</h5>
-    </div>
-    <div class="item">
-        <a href="https://www.kristinmunn.club">Design By Kristin Munn</a>
-    </div>
 
-</body>
+<!-- creat account box-->
+
+<form action="success.html" method="post">
+<fieldset>
+    <div class="createbox">
+
+    <p>Create An Account</p>
+        
+    </ul class = "addinfo">
+        <li><label for="firstname">First Name </label>
+        <input type="text" id="firstname" required="required" placeholder="Enter First Name"></li>
+
+        <li><label for="lastname">Last Name </label>
+        <input type="text" id="lastname" required="required" placeholder="Enter Last Name"> </li>
+
+        <li><label for="email">Email </label>
+        <input type="text" id="email" required="required" placeholder="Enter Email"></li>
+    </ul>
+
+    <p>Diets/styles of cooking you would like to learn more about:</p>
+    
+        <ul class ="checkbox">
+            <li><input type="checkbox" name="service" value="Whole30"> Whole30</li>
+            <li><input type="checkbox" name="service" value="Paleo"> Paleo</li>
+            <li><input type="checkbox" name="service" value="Vegetarian"> Vegetarian</li>
+            <li><input type="checkbox" name="service"value="Vegan"> Vegan</li>
+            <li><input type="checkbox" name="service" value="Keto"> Keto</li><br>
+            <li><input type="submit" value="Submit"></li>
+        </ul>
+
+    </div>          
+    </fieldset>
+</form>
+</main>
+
+
+<!-- footer start -->
+<footer class="headfoot">
+
+<p><small>&copy; 2020 by <a href="https://www.kristinmunn.club">Design By Kristin Munn</a>, All Rights Reserved 
+<a href="https://validator.w3.org/nu/?showsource=yes&doc=http%3A%2F%2Fwww.kristinmunn.club%2Fweb110%2Fassignments%2Fassignment11%2Findex.html">
+<img alt="validate" src="images/validator.png" height="25" width="50"></a> 
+<a href="https://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.kristinmunn.club%2Fweb110%2Fassignments%2Fassignment11%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+<img style="border:0;width:50px;height:25px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Validate CSS"></a></small></p>
+
+
+</footer>
+        
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    </body>
 </html>
