@@ -45,6 +45,9 @@ main {
     box-sizing: content-box;
 }
 
+img {
+    margin: 30px;   
+}
 
 /*recipe box*/
 
