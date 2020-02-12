@@ -46,39 +46,6 @@ main {
 }
 
 
-/*diet*/
-fieldset {
-    display: flex;
-    border: 2px dotted rgb(18, 19, 18);
-    border-radius: 30px;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    background-color: rgba(63, 156, 70, 0.548);
-    width:fit-content;
-    
-}
-
-fieldset p {
-    padding: 15px;
-}
-
-.createbox {
-    
-    display: block;
-    float: left;
-    padding: 20px;
-    
-}
-
-.addinfo {
-    list-style-type: none;
-}
-
-.checkbox {
-    list-style-type: none;
-    
-}
-
 /*recipe box*/
 
 table {
@@ -180,4 +147,13 @@ footer p {
 */
 
 
+iframe{
 
+    margin:15px;
+    width :400px;
+    height: 200px;
+}
+
+.diet > th {
+    size: 20px;
+}
