@@ -49,6 +49,11 @@ img {
     margin: 10px;   
 }
 
+.maindish, .sidedish, .dessert {
+    color: black;
+}
+
+
 /*recipe box*/
 
 table {
